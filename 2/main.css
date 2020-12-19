@@ -1,3 +1,7 @@
+:root
+{
+    --myvar;
+}
 #home{
     position: relative;
     top: 0;
@@ -14,11 +18,10 @@
 }
 .korea{
     position: absolute;
-    top: 45vh;
+    top: 48vh;
     left: 41vw;
-    bottom: 30px;
     z-index: 3;
-    height: 2%;
+    height: 2vh;
     width: auto;
     opacity: 65%;
 }
@@ -34,7 +37,7 @@
     bottom: 30px;
 
     z-index: 3;
-    height: 8%;
+    height: 8vh;
     width: auto;
     opacity: 65%;
 }
@@ -47,9 +50,9 @@
     top: 30vh;
     left: 20vw;
     bottom: 30px;
-
+    min-height: 5vh;
     z-index: 3;
-    height: 20%;
+    height: var(--myvar ,20vh);
     width: auto;
     opacity: 65%;
 }
@@ -57,4 +60,13 @@ body
 {
     background-color: aqua;
 }
- 
+.mobile
+{
+    position: absolute;
+    top : 60vh;
+
+}
+#title
+{
+    color : var(--myvar ,red);
+}

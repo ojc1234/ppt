@@ -2,20 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , minimum-scale=0.5">
     <link rel="stylesheet" href="main.css">
     <title>Document</title>
+    
 </head>
 <body>
-
-
+    
+    <script type = "text/javascirpt" src = 'script.js'></script>
     <section id="home">
-        <h1>인종차별</h1>
+        <h1 id = "title">인종차별</h1>
+        <input type="button" value="모바일 모드로" onclick="document.documentElement.style.setProperty('--myvar', '3vh')"></input>
+        <input type="button" value="원래상태로" onclick="document.documentElement.style.setProperty('--myvar', '')"></input>
         <div class="background">
             <img src="세계지도.png" style="width: 100%" class="bg">
             <a href="america.html" target="_blank"><img src="미국.png" class="america"> 
-            <a href="korea.html" target="_blank"><img src="대한민국.png" class="korea"> </a>        
-            <a href="china.html" target="_blank"><img src="중국.png" class="china">       
+            <a href="korea.html" target="_blank"><img src="대한민국.png" class="korea">       
+            <a href="china.html" target="_blank" ><img onmouseenter="modemobile('green')" src="중국.png" class="china" id="china">       
         </div>
     </section>
 </body>
