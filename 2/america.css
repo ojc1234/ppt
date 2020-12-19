@@ -1,0 +1,19 @@
+body
+{
+    background-color: #D9D9D9;
+}
+.title
+{
+    text-align: center;
+    border: solid 5px #A1A1A6;
+    padding: 5px;
+}
+th
+{
+    border: solid 5px #A1A1A6;
+}
+td{
+    border: solid 5px #0D0D0D;
+    height: 40vh;
+    width: 100vw;
+}
