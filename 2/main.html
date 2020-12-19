@@ -9,15 +9,15 @@
 </head>
 <body>
     
-    <script type = "text/javascirpt" src = 'script.js'></script>
-    <section id="home">
+    <script type = "text/javascript" src = 'script.js'></script>
+    <div id="home">
         <h1 id = "title">인종차별</h1>
-        <input type="button" value="모바일 모드로" onclick="document.documentElement.style.setProperty('--myvar', '3vh')"></input>
-        <input type="button" value="원래상태로" onclick="document.documentElement.style.setProperty('--myvar', '')"></input>
+        <input type="button" value="모바일 모드로" onclick="mode('5vh' , '1vh' ,'2vh' ,'42.5vh')"></input>
+        <input type="button" value="원래상태로" onclick="mode('20vh' ,'4vh' ,'8vh' ,'44vh')"></input>
         <div class="background">
             <img src="세계지도.png" style="width: 100%" class="bg">
-            <a href="america.html" target="_blank"><img src="미국.png" class="america"> 
-            <a href="korea.html" target="_blank"><img src="대한민국.png" class="korea">       
+            <a href="america.html" target="_blank"><img src="미국.png" class="america" id="america"> 
+            <a href="korea.html" target="_blank"><img src="대한민국.png" class="korea" id="korea">       
             <a href="china.html" target="_blank"><img  src="중국.png" class="china" id="china">       
         </div>
     </section>
